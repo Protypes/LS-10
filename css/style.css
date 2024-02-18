@@ -166,3 +166,42 @@
     font-size: 16px;
     color: white;
 }
+
+.skills__content {
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    min-height: 880px;
+}
+
+.skills__content__title {
+    font-weight: 700;
+    font-size: 60px;
+    color: #5C62EC;
+}
+
+.skills__content__items {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.skills__content__items__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.skills__content__items__item__title {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.skills__content__items__item__description {
+    font-size: 18px;
+    max-width: 600px;
+}

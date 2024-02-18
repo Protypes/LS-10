@@ -79,6 +79,7 @@
     font-size: 40px;
     font-weight: 700;
     line-height: 140%;
+    text-decoration: line-through;
 }
 
 .main__description {

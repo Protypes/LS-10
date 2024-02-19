@@ -51,6 +51,12 @@
     border-bottom: 3px solid rgb(92, 98, 236);
 }
 
+.header__navbar__link:hover {
+    background-color: #5C62EC;
+    border-radius: 20px;
+    transition: .4s;
+}
+
 .main__landing {
     padding-top: 182px;
     display: flex;
@@ -97,6 +103,11 @@
     background: #5C62EC;
     padding: 12px 28px 12px 28px;
     color: white;
+    transition: .4s;
+}
+
+.main__landing__button:hover {
+    background-color: #6668b4;
 }
 
 .main__projects {
@@ -155,7 +166,6 @@
 
 .footer__links {
     display: flex;
-    flex-direction: row;
     gap: 30px;
     align-items: center;
 }
@@ -164,6 +174,14 @@
     font-weight: 400;
     font-size: 16px;
     color: white;
+}
+.footer__links li {
+    transition: .4s;
+}
+
+.footer__links li:hover {
+    transition: .4s;
+    border-bottom: 1px solid white;
 }
 
 .skills__content {

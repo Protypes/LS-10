@@ -149,7 +149,6 @@
     display: flex;
     background-color: black;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     gap: 27px;
 }
@@ -204,4 +203,55 @@
 .skills__content__items__item__description {
     font-size: 18px;
     max-width: 600px;
+}
+
+@media screen and (max-width: 425px) {
+    .header{
+        justify-content: center;
+    }
+    .header__title {
+        display: none;
+    }    
+    .header__navbar {
+        gap: 10px;
+        justify-items: center;
+    }
+    .main__landing {
+        max-width: 425px;
+    }
+
+    .main__projects__items {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .main__projects {
+        padding: 0px;
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .main__landing,
+    .main__projects,
+    .footer
+     {
+        padding-inline: 25px;
+    }
+    .main__description {
+        font-size: 12px;
+    }
+    .main__title__name {
+        font-size: 40px;
+    }
+    .main__title__occupation {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .footer__links {
+        gap: 20px;
+    }
 }
